@@ -1,4 +1,6 @@
- - An exit code is a numeric value between 0 and 255. There’s a convention in the Unix world that an exit code equal to 0 means that the program was successful. Any other exit code denotes some kind of failure.
+https://www.sitepoint.com/exit-exit-abort-raise-get-me-outta-here/
+
+- An exit code is a numeric value between 0 and 255. There’s a convention in the Unix world that an exit code equal to 0 means that the program was successful. Any other exit code denotes some kind of failure.
  
  By passing a block to Kernel.at_exit you can specify code that should be executed before the process exits, a good place to clean up anything that won’t be cleaned up as part of normal execution.
 
